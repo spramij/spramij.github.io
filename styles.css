@@ -1,0 +1,25 @@
+
+body {
+  background-color: rgb(133, 133, 133);
+}
+
+#intro {
+  background-color: rgb(98, 86, 255);
+
+}
+
+#edu {
+  background-color: rgb(67, 150, 232);
+}
+
+#exp {
+  background-color: rgb(86, 255, 242);
+}
+
+#contact {
+  background-color: rgb(67, 232, 119);
+}
+
+nav {
+  opacity: 0.8;
+}
