@@ -44,6 +44,7 @@ h3 {
 
 .static_more_txt {
   opacity: 0.5;
+  margin: 0 0 10px 0;
   transition: 500ms;  }
 
 .static_more_txt:hover {
@@ -54,22 +55,36 @@ h3 {
   height: 45vh;
   float: left;  }
 
+#prog:hover {
+  transition: inherit;
+}
 
+#prog:hover::before {
+  color :blue;
+  content: "C:\\Users\\";
+}
+#prog:hover::after {
+  transition: inherit;
+  color: red;
+  content: "\\accessing mainframe";
+
+
+}
 #intro {
-  background-color: rgb(98, 86, 255); }
+  background-color: rgb(82, 147, 158); }
 
 #intro txt {
   float: right; }
 
 #edu {
-  background-color: rgb(67, 150, 232);  }
+  background-color: rgb(255, 254, 232);  }
 
 #exp {
-  background-color: rgb(86, 255, 242);
+  background-color: rgb(255, 161, 181);
   height: auto; }
 
 #topnav {
-  background-color: rgb(167, 255, 219);
+  background-color: rgb(166,142,122);
   width: 100%;
   height: 50px;
   overflow: hidden;
