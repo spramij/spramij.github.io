@@ -2,184 +2,140 @@
 <html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Sohil Pramij</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <style>
-        p {
-            font-family: "Gill Sans";
-        }
-
-        h1 {
-            font-family: Garamond;
-        }
-
-        .skills {
-            display: inline-block;
-            background-color: darkslategray;
-            border-radius: 10px;
-            padding: 5px 10px 5px 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="lib/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="lib/inverted.js"></script>
+    <script src="lib/lax.min.js"></script>
 </head>
 
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <a class="navbar-brand" href="#">Sohil Pramij</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#about_me">About me<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#edu">Education</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#exp">Experiences</a>
-            </li>
-        </ul>
-        <button class="btn btn-outline-success my-2 my-sm-0">
-            <a href="index_fr.html">Francais</a>
-        </button>
-    </div>
-</nav>
+<script>window.onload = function() {
+	lax.setup() // init
+	document.addEventListener('scroll', function(e) {
+	  lax.update(window.scrollY) // update every scroll
+	}, false)
+}</script>
 
 
-<div class="card-deck">
-    <div id="about_me" class="card">
-        <img class="card-img-top" src="images/me.jpg">
-        <div class="card-body">
-            <div class="card-text">
-                <p>I am an International student at the <a href="http:www.mun.ca">Memorial University of
-                    Newfoundland</a></p>
-                <p>I completed high school in Madagascar, where I was born and raised.</p>
-                <p>I fluently speak English, French and Gujrati, as well as a fair bit of Spanish.</p>
-            </div>
-        </div>
-    </div>
+<div class="sidenav">
+    <a href="#about_me">About me</a>
+    <a href="#edu">Education</a>
+    <a href="#exp">Experiences</a>
+    <a href="#worth_mention">Extras</a>
 
-    <div class="card text-white bg-info mb-3" style="max-height: fit-content; padding-bottom: 25px;">
-        <h1 class="card-header">Skills</h1>
-        <div class="cards-body" style="padding: 10px">
-            <p class="skills">Python</p>
-            <p class="skills">Java</p>
-            <p class="skills">Protocol Buffer</p>
-            <p class="skills">Socket Programming</p>
-            <p class="skills">Javascript</p>
-            <p class="skills">Leadership</p>
-            <p class="skills">Public Speaking</p>
-            <p class="skills">HTML</p>
-            <p class="skills">CSS</p>
-            <p class="skills">Shell</p>
-            <p class="skills">Linux</p>
-            <p class="skills">Pizza lover</p>
-        </div>
-    </div>
+    <a href="contact.html">Contact</a>
 
+    <a href="index_fr.html" style="margin-top: 50px">French please</a>
 </div>
 
-<div class="card-deck" style="max-height: fit-content">
-    <div id="edu" class="card bg-secondary mb-3" id="edu">
-        <h1>Education</h1>
-        <div class="card text-white bg-dark mb-3" style="max-height: fit-content">
-            <h2 class="card-header">Bachelor of Science</h2>
-            <p class="class=card-subtitle mb-2 text-muted"">expected June 2021.</p>
+<button id="invertedmode" type="button" onclick="invertColors()">My eyes hurt!</button>
 
-            <p>Memorial University of Newfoundland.</p>
+
+<div class="main">
+    <div id="about_me">
+        <h1 id="shitpost" class="shitpostW">About me</h1>
+        <img id="me" src="images/me.jpg" alt="Picture of me, Sohil Pramij">
+        <div id="text_me">
+            <p>I am an International student at the <a href="https://www.mun.ca">Memorial University of
+                Newfoundland</a></p>
+            <p>I completed high school in Madagascar, where I was born and raised.</p>
+            <p>I fluently speak English, French and Gujrati, as well as a fair bit of Spanish.</p>
+        </div>
+    </div>
+
+    <div id="edu">
+        <h1 data-lax-preset="slalom-5">Education</h1>
+        <div class="cards">
+            <h2>Bachelor of Science</h2>
+            <p class="date">expected June 2021.</p>
+            <p class="institution">Memorial University of Newfoundland.</p>
             <p>Major in Computer Science.</p>
         </div>
-        <br>
-        <div class="card text-white bg-dark mb-3" style="max-height: fit-content">
-            <h2 class="card-header">Baccalauréat Sciencitifique - Baccalaureate of Sciences</h2>
-            <p class="class=card-subtitle mb-2 text-muted">June 2017</p>
+        <div class="cards">
+            <h2>Baccalauréat Scientifique - Baccalaureate of Sciences</h2>
+            <p class="date">June 2017</p>
+            <p class="institution">Lycée Français de Tananarive</p>
+            <p>Specialization in Information Technologies (Informatique et Sciences du Numérique)</p>
+        </div>
+    </div>
 
-            <p>Lycée Français de Tananarive</p>
-            <p>Specialization in Information Technologies (Informatique et Sciences du Numérique)
+
+    <div id="exp">
+        <h1 data-lax-preset="slalom-15">Experiences</h1>
+        <div class="cards">
+            <h2>Office Assistant</h2>
+            <p class="date">January 2019 to today</p>
+            <p class="institution">Association Communautaire Francophone de St. Jean</p>
+            <p>My duties included managing the library resources: using a specialized software to update the
+                catalog, track rentals and returns, as well as welcoming, assisting and directing visitors in the
+                center.
+                Later, I joined the office team where I now assist in accounting, tracking expenses as well as
+                invoicing, assist in numerous other tasks during events and use computerized tools to facilitate daily
+                work.
+            </p>
+            <p>A lot of my time was spent on the Joomla CMS, that I used to find information on members, and
+                occasionally used cPanel to request information from the database.</p>
+        </div>
+        <div class="cards">
+            <h2>French Tutoring</h2>
+            <p class="date">June 2018 to today</p>
+            <p class="institution">Memorial University of Newfoundland</p>
+            <p>As a tutor, I worked under the supervision of Camilla Stoodley, French Program Liaison Officer at MUN.
+                I organized online and on-campus sessions with students, to help them with various course work or
+                examination preparation such as the DELF. I was responsible for making content following the course
+                curriculum and test as well as improve their French understanding and expression.</p>
+        </div>
+        <div class="cards">
+            <h2>Online Ancient Greek Learning Platform</h2>
+            <p class="date">September 2016 to July 2017</p>
+            <p class="institution">Lycée Français de Tananarive</p>
+            <p>Creation of an online teaching and learning platform for Ancient Greek. Platform was based on
+                Moodle and used content created by myself as well as my Ancient Greek professor, and included test
+                components for learners. </p>
+        </div>
+        <div class="cards">
+            <h2>Tech Lead</h2>
+            <p class="institution">Enactus Memorial</p>
+            <p>Working on the Remote_CTRL project, with the goal to bring digital learning resources to rural areas of
+                Newfounland with lacking connectivity. This required me to work in a highly collaborative,
+                multi-disciplinary
+                team. Tools used: LEMP stack, Avahi and mDNS, open-source projects such as Moodle, Khan Academy Lite,
+                Kiwix, Debian based RaspbianOS Linux distribution, Bash scripting.</p>
+        </div>
+        <div class="cards">
+            <h2>Software Developer</h2>
+            <p class="institution">Paradigm Hyperloop</p>
+            <p>Elaboration of various tools and platforms to interact with the Pod, handling incoming data packets such
+                as telemetry data, but also sending commands, implementing failsafes and ensuring continuous liaison.
+                Tools used: Flask, Bootstrap, JavaScript, InfluxDB, Google Protocol Buffer, Grafana, socket
+                programming</p>
+        </div>
+    </div>
+    <div id="worth_mention">
+        <h1 data-lax-preset="slalom-10">Worth mentioning</h1>
+        <div class="cards">
+            <h2>Gasy Vert</h2>
+            <p class="date">September 2016 to July 2017</p>
+            <p class="institution">Lycée Français de Tananarive</p>
+            <p>Being a member of the sustainable development club "Gasy Vert" in high school allowed me to partake in
+                many different events.
+                Sensibilizing the student corps to the issues of global warming, but also representing the student corps
+                during meetings, I presented projects in front of the school administration.</p>
+        </div>
+        <div class="cards">
+            <h2>International Summit of Francophonie</h2>
+            <p class="date">November 2016</p>
+            <p>Taking place in Madagacar in 2016, I was chosen along with another student as an ambassador during
+                speaking events and debates.
+        </div>
+        <div class="cards">
+            <h2>High school graduation ceremony</h2>
+            <p class="date">July 2017</p>
+            <p>I was honored with the opportunity to speak during the graduation ceremony at the end of high school,
+                where I introduced that year's graduation sponsor.</p>
         </div>
     </div>
 </div>
-
-<div class="card" id="exp">
-    <h1>Experiences</h1>
-    <h2>Professional experiences</h2>
-    <div class="card text-white bg-info mb-3" style="max-height: fit-content">
-        <h3>Desk Assistant</h3>
-        <p class="subtitle">Association Communautaire Francophone de St. Jean, ACFSJ</p>
-        <p class="more_txt">My work was concentrated at the library, working on the organization, cataloging, rental and
-            returns of books.<br>
-            These tasks allowed me to strenghten my organizational and time-management skills.<br>
-            Being the only French facility in the region, many different events took place there, where I would get to
-            play
-            many different roles.</p>
-    </div>
-    <div class="card text-white bg-info mb-3" style="max-height: fit-content">
-        <h3>Online teaching</h3>
-        <p class="subtitle">Lycée Français de Tananarive.</p>
-        <p class="more_txt">Creation of an online platform aiming to facilitate the learning process of ancient Greek.
-            Working with my professor, my work consisted in the elaboration of content geared towards the general
-            public.<br>
-            The goal was to use this platform as an aid both for professors and students, for beginners and advanced
-            students alike, hence it was very important to have a user-friendly interface. <br>
-            This opportunity taught me how to manage a strict timetable, but also how to team-work as I my work was
-            supevised by my professor.</p>
-    </div>
-    <h2>Personal experiences</h2>
-    <h3 id="prog">Programming</h3>
-    <p class="list_Item">HTML</p>
-    <p class="more_txt">Paired with CSS, the markdown language HTML is known as the backbone of websites.<br>
-        Very widely used, learning it has allowed me to get into front-end web development.
-        <br>It is using this newly acquired knowledge that I create this website, as a project I had planned out for
-        the
-        summer 2018.</p>
-    <p class="list_Item">Java</p>
-    <p class="more_txt">Another very widely used language, learning Java taught me how to create a cleaner and more
-        structured code. <br>
-        I did not dig deeper or explore Java any further, as I consider other languages more polyvaent, despite Java
-        being widely recognized.</p>
-    <p class="list_Item">Python</p>
-    <p class="more_txt">A very powerful and polyvalent programming language.
-        <br>The many uses of Python makes it a must for me. Having started with this language as part of my high
-        school
-        curiculum, I continued exploring it, and as such is the one I am most familiar with.</p>
-
-    <h3>Misc</h3>
-    <p>Public speaking</p>
-    <ul>
-        <li>Gasy Vert.</li>
-        <p class="static_more_txt">Being a member of the sustainable development club "Gasy Vert" in high school
-            allowed
-            me to partake in many different events. <br>Sensibilizing the
-            student corps to the issues of global warming, but also representing the student corps during meetings,
-            I
-            presented projects in front of the school administration.</p>
-        <li>International Summit of Francophonie.</li>
-        <p class="static_more_txt">Taking place in Madagacar in 2016, I was chosen along with another student as an
-            ambassador during speaking events and debates.</p>
-        <li>High school graduation ceremony.</li>
-        <p class="static_more_txt"> I was honored with the opportunity to speak during the graduation ceremony at
-            the
-            end of high school, where I introduced another personality present.</p>
-    </ul>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 </body>
 </html>
