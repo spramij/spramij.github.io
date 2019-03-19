@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <title>Sohil Pramij</title>
+    <link rel="stylesheet" href="lib/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="lib/inverted.js"></script>
+    <script src="lib/lax.min.js"></script>
+</head>
+
+<body>
+<script>window.onload = function () {
+    lax.setup() // init
+    document.addEventListener('scroll', function (e) {
+        lax.update(window.scrollY) 
+    }, false)
+}</script>
+
+
+<div class="sidenav">
+    <a href="#about_me">À mon propos</a>
+    <a href="#edu">Éducation</a>
+    <a href="#exp">Éxperiences</a>
+    <a href="#worth_mention">Extras</a>
+
+    <a href="contact.html">Contact</a>
+
+    <a href="index.html" style="margin-top: 50px">English please</a>
+</div>
+
+<button id="invertedmode" type="button" onclick="invertColors()">Aïe mes yeux!</button>
+<h1>Sorry, I'm not done translating this yet!</h1>
+<h1>Désolé, je n'ai pas encore fini de traduire ce site!</h1>
+
+<div class="main">
+</div>
+</body>
+</html>
