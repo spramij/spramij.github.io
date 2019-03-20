@@ -1,14 +1,11 @@
-# Mark-II
+# Mark-III
 
-## Relocation of the repository
-Second version of my personal static website. Based on HTML and CSS, with both French and English versions. 
+Third version of my personal static website. Based on HTML, CSS and a tiny bit of JavaScript, in English (and upcoming French).
 
-As a small project for the summer 2018, decided to create a website for my online resume.
+As a small project to procrastinate studying, I decided to update my website.
 
-Version 1 was not tracked on GitHub and served its purpose as a way for me to get familiarized with front-end development.
-This version aims to fix all of the things I ignored the first time, provide better compatibility over different platforms, and be more aesthetically pleasing
+This bad boy is pretty, fast, and has all my love <3 
 
-
-## Goals:
-- try to make use of Javascript to make it more lively
-- make a version that takes advantage of Bootstrap
+Credits and inspiration goes to 
+- [DenysVitali's](https://github.com/denysvitali/thebestmotherfuckingwebsite) [TheBestMotherFucking.website](https://thebestmotherfucking.website)
+- [Eva Icons](https://github.com/akveo/eva-icons)
