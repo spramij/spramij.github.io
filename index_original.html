@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <title>Sohil Pramij</title>
+    <link rel="stylesheet" href="lib/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="lib/inverted.js"></script>
+    <script src="lib/lax.min.js"></script>
+</head>
+
+<body>
+<script>window.onload = function() {
+	lax.setup() // init
+	document.addEventListener('scroll', function(e) {
+	  lax.update(window.scrollY) // update every scroll
+	}, false)
+}</script>
+
+
+<div class="sidenav">
+    <a href="#about_me">About me</a>
+    <a href="#edu">Education</a>
+    <a href="#exp">Experiences</a>
+    <a href="#worth_mention">Extras</a>
+
+    <a href="contact.html">Contact</a>
+
+    <a href="fr_index.html" style="margin-top: 50px">Français SVP</a>
+</div>
+
+<button id="invertedmode" type="button" onclick="invertColors()">My eyes hurt!</button>
+
+
+<div class="main">
+    <div id="about_me">
+        <h1 id="shitpost" class="shitpostW">About me</h1>
+        <img id="me" src="images/me_resized.jpg" alt="Picture of me, Sohil Pramij">
+        <div id="text_me">
+            <p>I am an International student at the <a href="https://www.mun.ca">Memorial University of
+                Newfoundland</a></p>
+            <p>I lived most of my life in Madagascar, and flied all the way from the Southern hemisphere to NL to study in 2017.</p>
+            <P>I can (for now!) speak English and French fluently, Spanish and Gujrati at an intermediate level, and Hindi and Malagasy at a beginner level.</P>
+        </div>
+    </div>
+
+    <div id="edu">
+        <h1 data-lax-preset="slalom-5">Education</h1>
+        <div class="cards">
+            <h2>Bachelor of Science</h2>
+            <p class="date">expected June 2021.</p>
+            <p class="institution">Memorial University of Newfoundland.</p>
+            <p>Major in Computer Science.</p>
+        </div>
+        <div class="cards">
+            <h2>Baccalauréat Scientifique - Baccalaureate of Sciences</h2>
+            <p class="date">June 2017</p>
+            <p class="institution">Lycée Français de Tananarive</p>
+            <p>Specialization in Information Technologies (Informatique et Sciences du Numérique)</p>
+        </div>
+    </div>
+
+
+    <div id="exp">
+        <h1 data-lax-preset="slalom-15">Experiences</h1>
+        <div class="cards">
+            <h2>Office Assistant</h2>
+            <p class="date">January 2019 to today</p>
+            <p class="institution">Association Communautaire Francophone de St. Jean</p>
+            <p>My duties include : <ul>
+                <li>creating and maintaining computerized and web-tools to automate repetitive tasks,</li>
+                <li>assist the administrative team with daily tasks, as well as when planning and setting up various activities and events,</li>
+                <li>manage and administer library resources (cataloging, rentals, returns) as well as the patreon profiles, using a specialized software,</li>
+                <li>amateur photography during events,</li>
+                <li>welcome and assist visitors</li></ul>
+            <p>Projects:</p> <ul>
+                <li>creation of various bash script</li>
+                <li>creation of Python scripts, querying MySQL and returning pre-formatted data,</li>
+                <li>creation of a conversion tool for library notices (UNIMARC to MARC21), retrieving the original data from a web-service,</li>
+                <li>upgrading the computerized infrastucture at the Assoctiation as well as its online presence.</li>
+            </ul>
+        </div>
+        <div class="cards">
+            <h2>French Tutoring</h2>
+            <p class="date">June 2018 to today</p>
+            <p class="institution">Memorial University of Newfoundland</p>
+            <p>As a tutor, I worked under the supervision of Camilla Stoodley, French Program Liaison Officer at MUN.
+                I organized online and on-campus sessions with students, to help them with various course work or
+                examination preparation such as the DELF. I was responsible for making content following the course
+                curriculum and test as well as improve their French understanding and expression.</p>
+        </div>
+        <div class="cards">
+            <h2>Online Ancient Greek Learning Platform</h2>
+            <p class="date">September 2016 to July 2017</p>
+            <p class="institution">Lycée Français de Tananarive</p>
+            <p>Creation of an online teaching and learning platform for Ancient Greek. Platform was based on
+                Moodle and used content created by myself as well as my Ancient Greek professor, and included test
+                components for learners. </p>
+        </div>
+        <div class="cards">
+            <h2>Tech Lead</h2>
+            <p class="institution">Enactus Memorial</p>
+            <p>Working on various projects, I had the opportunity to work in a highly cooperative and multi-disciplinary environment. 
+            </br>Various tools were used and explored, such as : LEMP stack, Avahi and mDNS, open-source projects such as Moodle, Khan Academy Lite,
+                Kiwix, Debian based RaspbianOS Linux distribution, Bash scripting.</p>
+        </div>
+        <div class="cards">
+            <h2>Software Developer</h2>
+            <p class="institution">Paradigm Hyperloop</p>
+            <p>Elaboration of various tools and platforms to interact with the Pod, handling incoming data packets such
+                as telemetry data, but also sending commands, implementing failsafes and ensuring continuous liaison.
+                Tools used: Flask, Bootstrap, JavaScript, InfluxDB, Google Protocol Buffer, Grafana, socket
+                programming</p>
+        </div>
+    </div>
+    <div id="worth_mention">
+        <h1 data-lax-preset="slalom-10">Worth mentioning</h1>
+        <div class="cards">
+            <h2><a href="https://github.com/digimezzo/Dopamine">Dopamine - translation</a></h2>
+            <p>Participated in an open-source program, suggesting a better French translation.</p>
+        </div>
+        <div class='cards'>
+            <h2><a href='https://github.com/spramij/course_notes'>course_notes</a></h2>
+            <p>Created a template for note taking in class, based on the Github Pages tools (Ruby, Jekyll), 
+                allowing to autorender Markdown formatted text in webpages, including mathematical equations.</p>
+        </div>
+        <div class="cards">
+            <h2>Gasy Vert</h2>
+            <p class="date">September 2016 to July 2017</p>
+            <p class="institution">Lycée Français de Tananarive</p>
+            <p>Being a member of the sustainable development club "Gasy Vert" in high school allowed me to partake in
+                many different events.
+                Sensibilizing the student corps to the issues of global warming, but also representing the student corps
+                during meetings, I presented projects in front of the school administration.</p>
+        </div>
+        <div class="cards">
+            <h2>International Summit of Francophonie</h2>
+            <p class="date">November 2016</p>
+            <p>Taking place in Madagacar in 2016, I was chosen along with another student as an ambassador during
+                speaking events and debates.
+        </div>
+        <div class="cards">
+            <h2>High school graduation ceremony</h2>
+            <p class="date">July 2017</p>
+            <p>I was honored with the opportunity to speak during the graduation ceremony at the end of high school,
+                where I introduced that year's graduation sponsor.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
