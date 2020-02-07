@@ -1,0 +1,164 @@
+I"<div class="sidenav">
+    
+      <a href="#about-me">About me</a>
+    
+      <a href="#education">Education</a>
+    
+      <a href="#experiences">Experiences</a>
+    
+      <a href="#extra-curricular--volunteering">Extra-Curricular</a>
+    
+    <a href="/contact">Contact</a>
+    <a href="/fr">Français SVP</a>
+
+</div>
+
+<h1 id="about-me">About me</h1>
+
+<p><img src="/assets/images/me_resized.jpg" alt="Sohil Pramij" id="me" /></p>
+
+<p>I am an International student at the <a href="https://www.mun.ca">Memorial University of Newfoundland</a>.</p>
+
+<p>I was born and raised in <a href="https://goo.gl/maps/kgTHfdULKvvChkxm9">Mahajanga, Madagarscar</a>.</p>
+
+<p>Having lived in a multicultural environment, and then following the French education program, I have had the opportunity to learn multiple languages, and as such can speak French and English fluently, Spanish and Gujrati at an itermediate level, and Hindi and Malagasy at a beginner level.</p>
+
+<h1 id="education">Education</h1>
+
+<h2 id="bachelor-of-science">Bachelor of Science</h2>
+
+<p class="date">expected June 2021.</p>
+
+<p class="institution">Memorial University of Newfoundland.</p>
+
+<p>Major in Computer Science - Smart Systems.</p>
+
+<hr />
+
+<h2 class="date" id="baccalauréat-scientifique---baccalaureate-of-sciences">Baccalauréat Scientifique - Baccalaureate of Sciences</h2>
+<p>June 2017</p>
+
+<p class="institution">Lycée Français de Tananarive</p>
+
+<p>Specialization in Information Technologies (Informatique et Sciences du Numérique), Ancient Greek and rock-climbing.</p>
+
+<h1 id="experiences">Experiences</h1>
+
+<h2 id="office-assistant">Office Assistant</h2>
+
+<p class="date">January 2018 to today</p>
+
+<p class="institution">Association Communautaire Francophone de St. Jean</p>
+
+<p>My duties include :</p>
+<ul>
+  <li>creating and maintaining computerized and web-tools to automate repetitive tasks related to member management,</li>
+  <li>assist the administrative team with daily tasks, as well as when planning and setting up various activities and events,</li>
+  <li>manage and administer library resources (cataloging, rentals, returns) as well as the patreon profiles, using a specialized software,</li>
+  <li>managing financial data using <a href="https://quickbooks.intuit.com/fr-ca/">QuickBooks</a>, create reports and provide information to management,</li>
+  <li>amateur photography during events,</li>
+  <li>welcome and assist visitors.</li>
+</ul>
+
+<p>Highlights:</p>
+<ul>
+  <li>creation of various bash script to automate and simplify file management,</li>
+  <li>creation of Python scripts, querying MySQL and returning pre-formatted data,</li>
+  <li>creation of a conversion tool for library notices (UNIMARC to MARC21), retrieving the original data from a web-service,</li>
+  <li>upgrading the computerized infrastucture through hardware upgrades and system management,</li>
+  <li>improving the Association’s online presence by rebuilding from scratch the website using <a href="https://wordpress.org/">WordPress</a></li>
+</ul>
+
+<hr />
+
+<h2 id="office-administration-duties--french-tutoring-and-assistance">Office Administration Duties | French Tutoring and Assistance</h2>
+
+<p class="date">June 2018 to today</p>
+
+<p class="institution">Memorial University of Newfoundland</p>
+
+<p>Under the direction of the French Program Liaison Officer at MUN, I have worked as a tutor, Teaching Assistant, and conversation leader. I organized online and on-campus sessions with students, to help them with various course work or examination preparation such as the DELF.</p>
+
+<p>I also provided insight and assistance in organizational and management tasks.</p>
+
+<hr />
+
+<h2 id="online-ancient-greek-learning-platform">Online Ancient Greek Learning Platform</h2>
+
+<p class="date">September 2016 to July 2017</p>
+
+<p class="institution">Lycée Français de Tananarive</p>
+
+<p>Creation of an online teaching and learning platform for Ancient Greek. Platform was based on Moodle and used content created by myself as well as my Ancient Greek professor, and included test components for learners.</p>
+
+<h1 id="extra-curricular--volunteering">Extra-curricular | Volunteering</h1>
+
+<h2 id="web-developper--event-leader">Web Developper | Event Leader</h2>
+
+<p class="institution"><a href="http://naturenl.ca">Nature NL</a></p>
+
+<p>Rebuilt the organization’s website using more common and streamlined methods, implemented various automization tools and incorporated improved workflow while managing the website.</p>
+
+<p>Tools used: cloud-hosting, WordPress, Python, CloudFlare.</p>
+
+<p>Lead a multilingual hike (covered by <a href="https://www.thetelegram.com/news/lichen-the-way-you-talk-322950/">The Telegram</a>, <a href="https://gazette.mun.ca/public-engagement/mother-tongues/">MUN Gazette</a>) through Biggood Park in Hindi, inviting and acommodating anyone in their native tongue with the goal of making for a better and warmer experience of Newfoundland flora and ambiance.</p>
+
+<hr />
+
+<h2 id="tech-lead">Tech Lead</h2>
+
+<p class="institution"><a href="https://enactusmemorial.ca/">Enactus Memorial</a></p>
+
+<p>Working on various projects, I had the opportunity to work in a highly cooperative and multi-disciplinary environment.</p>
+
+<p>Various tools were used and explored, such as: LEMP stack, Avahi and mDNS, open-source projects such as Moodle, Khan Academy Lite, Kiwix, Debian based RaspbianOS Linux distribution, Bash scripting.</p>
+
+<hr />
+
+<h2 id="software-developer">Software Developer</h2>
+
+<p class="institution"><a href="https://paradigmhyperloop.com/">Paradigm Hyperloop</a></p>
+
+<p>Elaboration of various tools and platforms to interact with the Pod, handling incoming data packets such as telemetry data, but also sending commands, implementing failsafes and ensuring continuous liaison.</p>
+
+<p>Tools used: Flask, Bootstrap, JavaScript, InfluxDB, Google Protocol Buffer, Grafana, socket programming</p>
+
+<hr />
+
+<h2 id="dopamine---translation"><a href="https://github.com/digimezzo/Dopamine">Dopamine - translation</a></h2>
+
+<p>Participated in an open-source program, suggesting a better French translation.</p>
+
+<hr />
+
+<h2 id="course_notes"><a href="https://github.com/spramij/course_notes">course_notes</a></h2>
+
+<p>Created a template for note taking in class, based on the Github Pages tools (Ruby, Jekyll), allowing to autorender Markdown formatted text in webpages, including mathematical equations.</p>
+
+<hr />
+
+<h2 id="gasy-vert">Gasy Vert</h2>
+
+<p class="date">September 2016 to July 2017</p>
+
+<p class="institution">Lycée Français de Tananarive</p>
+
+<p>Being a member of the sustainable development club “Gasy Vert” in high school allowed me to partake in many different events. Sensibilizing the student corps to the issues of global warming, but also representing the student corps during meetings, I presented projects in front of the school administration.</p>
+
+<hr />
+
+<h2 id="international-summit-of-francophonie">International Summit of Francophonie</h2>
+
+<p class="date">November 2016</p>
+
+<p>Taking place in Madagacar in 2016, I was chosen along with another student as an ambassador during speaking events and debates.</p>
+
+<hr />
+
+<h2 id="high-school-graduation-ceremony">High school graduation ceremony</h2>
+
+<p class="date">July 2017</p>
+
+<p>I was honored with the opportunity to speak during the graduation ceremony at the end of high school, where I introduced that year’s graduation sponsor.</p>
+
+:ET

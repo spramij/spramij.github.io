@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="/assets/js/inverted.js"></script>
+    <script src="/assets/js/lax.min.js"></script>
+    <script src="https://unpkg.com/eva-icons"></script>
+</head>
+
+<body>
+    <!-- <script>
+        window.onload = function () {
+            lax.setup() // init
+            document.addEventListener('scroll', function (e) {
+                lax.update(window.scrollY) // update every scroll
+            }, false)
+        }
+    </script> -->
+    <!-- <button id="invertedmode" type="button" onclick="invertColors()">My eyes hurt!</button> -->
+
+    <div class="main">
+        {{ content }}
+    </div>
+</body>
+
+</html>
