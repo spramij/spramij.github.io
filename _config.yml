@@ -1,21 +1,3 @@
 name: Sohil Pramij
 markdown: kramdown
 
-collections:
-  EN:
-    output: true
-    order:
-      - biography.md
-      - education.md
-      - experiences.md
-      - extra-curricular.md
-  FR:
-    output: true
-    order:
-      - biographie.md
-      - éducation.md
-      - experiences.md
-      - extra-curricular.md
-    
-collections_dir: content
-lang: en

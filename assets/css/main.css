@@ -1,0 +1,65 @@
+body {
+    font-family: 'Raleway', sans-serif;    color: #454545;
+    font-size: 24px;
+    background-color: #fefefe;
+}
+
+a { 
+    text-decoration: none;
+}
+.topnav {
+    position: fixed;
+    top: 5%;
+    right: 0%;
+    margin-right: 5em;
+}
+
+.topnav a {
+    color: #454545;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.language {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    text-decoration: none;
+}
+.language-selector { display: none; }
+
+.language:hover .language-selector {
+    display: block;
+    text-decoration: none;
+}
+
+.language-selector a {
+    text-decoration: none;
+    display: block;
+}
+
+.main { 
+    position: relative;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.me {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    width: 40%
+}
+
+.column {
+    float: left;
+}
+  
+.left {
+    width: 60%;
+}
+  
+.right {
+    width: 40%;
+}
