@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sohil Pramij</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.extensions.min.js"></script>
+</head>
+
+<body>
+  <div class="topnav">
+    <div class="language">
+      <ion-icon size="large" name="language-outline"></ion-icon>
+      <div class="language-selector">
+        <a href="portfolio.html">English</a>
+      </div>
+    </div>
+    <div class="menu">
+      <a href="">portfolio</a>
+      <a href="cv.html">CV</a>
+      <a href="acceuil.html">à propos</a>
+    </div>
+  </div>
+
+  <div id="fullpage">
+
+    <div class="section">
+      <h1 class="title">NatureNL</h1>
+      <div class="desc">
+        <p>Redesigned based on modern UI standards and developed integrations for various needs.</p>
+        <p>Based on WordPress, allowing for the use of a centralized panel to manage various aspects of the
+          organization.</p>
+        <p>Migrated to a new Google Suite based workflow, including the configuration of the mailing service and data
+          management system.</p>
+        <p>Configured and deployed the e-store.</p>
+      </div>
+      <div class="showcase">
+        <iframe src="http://naturenl.ca" width="720" height="480"></iframe>
+      </div>
+    </div>
+
+    <div class="section">
+      <h1 class="title">ACFSJ</h1>
+      <div class="desc">
+        <p>Accounting: track income and expenses, generate reports, .</p>
+        <p>Develop and manage the membership management system, allowing for the integratiON and update of changes in
+          the various systems simultaneously.</p>
+        <p>Streamline the workflow, integrate project management tools and improve the communication methods.</p>
+        <p>Manage the library through cataloguing, check-ins and check-outs.</p>
+        <p>Assist the office staff in daily tasks, welcome visitors, and accomplish various miscellaneous tasks during
+          events.</p>
+
+      </div>
+      <div class="showcase">
+        <iframe src="http://acfsj.ca" width="720" height="480"></iframe>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var myFullpage = new fullpage('#fullpage', {
+        anchors: ['NatureNL', 'ACFSJ'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['NatureNL', 'ACFSJ']
+      });
+    </script>
+  </div>
+</body>
+
+</html>

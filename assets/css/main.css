@@ -1,0 +1,92 @@
+body {
+    font-family: 'Raleway', sans-serif;    color: #454545;
+    font-size: 24px;
+    background-color: #fefefe;
+}
+
+a { 
+    text-decoration: none;
+}
+.topnav {
+    position:fixed;
+    z-index:9;
+    top: 5%;
+    right: 5%;
+}
+
+.topnav a {
+    color: #454545;
+    padding: 14px 16px;
+    font-style: italic;
+}
+
+.language {
+    position:fixed;
+    left: 5%;
+		display:block;
+		z-index:9;
+		text-align:center;
+}
+.language-selector { display: none; }
+
+.language:hover .language-selector {
+    display: inline;
+    text-decoration: none;
+}
+
+.language-selector a {
+    text-decoration: none;
+    display: inline;
+}
+
+.main { 
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.me {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    width: 40%
+}
+
+.section .title { 
+    text-align:center;
+}
+.section .desc { 
+    position: relative;
+    margin-left: 2%;
+    width: 60%;
+    float: left;
+}
+
+.section .showcase { 
+    float: right;
+}
+
+
+.main h1 {
+    text-align: center;
+}
+
+.job { 
+    padding-bottom: 25px;
+    max-width: 80%;
+}
+
+.job .employer {
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 25px;
+    margin-top: -30px;
+    
+}
+
+.job .dates {
+    margin-top: -20px;
+    margin-left: -25px;
+    font-size: 22px;
+    font-style: italic;
+}
