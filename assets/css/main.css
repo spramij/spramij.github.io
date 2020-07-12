@@ -8,41 +8,41 @@ a {
     text-decoration: none;
 }
 .topnav {
-    position: fixed;
+    position:fixed;
+    z-index:9;
     top: 5%;
-    right: 0%;
-    margin-right: 5em;
+    right: 5%;
 }
 
 .topnav a {
     color: #454545;
     padding: 14px 16px;
-    text-decoration: none;
     font-style: italic;
 }
 
 .language {
-    position: fixed;
-    top: 5%;
+    position:fixed;
     left: 5%;
-    text-decoration: none;
+		display:block;
+		z-index:9;
+		text-align:center;
 }
 .language-selector { display: none; }
 
 .language:hover .language-selector {
-    display: block;
+    display: inline;
     text-decoration: none;
 }
 
 .language-selector a {
     text-decoration: none;
-    display: block;
+    display: inline;
 }
 
 .main { 
     position: relative;
-    margin-top: 15%;
-    margin-left: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 .me {
@@ -52,14 +52,41 @@ a {
     width: 40%
 }
 
-.column {
+.section .title { 
+    text-align:center;
+}
+.section .desc { 
+    position: relative;
+    margin-left: 2%;
+    width: 60%;
     float: left;
 }
-  
-.left {
-    width: 60%;
+
+.section .showcase { 
+    float: right;
 }
-  
-.right {
-    width: 40%;
+
+
+.main h1 {
+    text-align: center;
+}
+
+.job { 
+    padding-bottom: 25px;
+    max-width: 80%;
+}
+
+.job .employer {
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 25px;
+    margin-top: -30px;
+    
+}
+
+.job .dates {
+    margin-top: -20px;
+    margin-left: -25px;
+    font-size: 22px;
+    font-style: italic;
 }
