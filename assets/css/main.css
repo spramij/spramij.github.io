@@ -103,6 +103,15 @@ a {
     font-style: italic;
 }
 
+ion-icon {
+    color: #2b2b2b;
+    font-size: 64px;
+}
+
+.contact a{
+    padding-left: 50px;
+}
+
 @media (max-width: 800px) {
     .me {
         max-width: 100%;
